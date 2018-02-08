@@ -81,11 +81,39 @@
 }
 
 .img-big {
-  height: 140px;
-  width: 300px;
+  height: 150px;
 }
 
 .img-small {
-  height: 70px;
-  width: 150px;
+  height: 100px;
+}
+
+@media (min-width: 576px){
+  .img-big {
+    height: 200px;
+  }
+  
+  .img-small {
+    height: 100px;
+  }
+}
+
+@media (min-width: 768px){
+  .img-big {
+    height: 180px;
+  }
+  
+  .img-small {
+    height: 120px;
+  }
+}
+
+@media (min-width: 992px){
+  .img-big {
+    height: 240px;
+  }
+  
+  .img-small {
+    height: 170px;
+  }
 }
