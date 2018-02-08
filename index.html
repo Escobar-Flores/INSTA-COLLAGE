@@ -20,40 +20,44 @@
   </head>
   <body class="bg-grad">
     <div class="container bg-grad">
-      <div class="row align-items-center  bg-100 margin-0 padding-0">
-        <div class="col align-self-center">
-          <h1 class="text-white principal-title-styles text-center">Funny Collage
+      <div class="row align-items-center bg-100 m-0 padding-0">
+        <div class="col-md-6 offset-md-3 align-self-center">
+          <h1 class="text-white principal-title-styles text-center mb-5">Funny Collage
             <i class="fas fa-camera-retro"></i>
           </h1>
-          <br>
-          <br>
           <form>
             <div class="form-group">
-              <input class="form-control  bg-input text-white font-weight-300 w-100 " type="text" placeholder="Email">
+              <input id="email" class="form-control  bg-input text-white font-weight-300 w-100 " type="email" placeholder="Email">
             </div>
             <div class="form-group">
-              <input class="form-control  bg-input font-weight-300 " type="password" placeholder="Password">
+              <input id="password" class="form-control  bg-input font-weight-300 " type="password" placeholder="Password">
+            </div>
+            <button type="button" id="btnSignUp" class="btn text-white btn-block btn-styles font-weight-300 ">Registrarte</button>
+          </form>
+          <div class="text-center text-white my-4 font-weight-bold">¿Tienes una cuenta?</div>
+          <form class="mb-2">
+            <div class="form-group">
+              <input id="email2" class="form-control  bg-input text-white font-weight-300 w-100 " type="email" placeholder="Email">
             </div>
             <div class="form-group">
-              <input class="form-control  bg-input font-weight-300 " type="password" placeholder="Confirm Password">
+              <input id="password2" class="form-control  bg-input font-weight-300 " type="password" placeholder="Password">
             </div>
-            <button type="submit" class="btn text-white btn-block btn-styles font-weight-300 ">Iniciar Sesion</button>
+            <button type="button" id="btnLogin" class="btn text-white btn-block btn-styles font-weight-300 ">Inicia sesión</button>
             <br>
             <p class="text-white text-center">
               <span class="span-left"></span> o
               <span class="span-right"></span>
             </p>
             <br>
-            <button type="submit" class="btn text-white btn-block btn-styles font-weight-300">
+            <button type="submit" id="" class="btn text-white btn-block btn-styles font-weight-300">
               <i class="fab fa-google"></i> Inicia sesion con Google </button>
           </form>
         </div>
       </div>
     </div>
-    <!--JQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"></script>
-    <!-- Bootstrap -->
-    <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="vendors/bootstrap/js/bootstrap.min.js"></script>    
+    <script src="js/login.js"></script>
   </body>
 </html>
