@@ -88,6 +88,12 @@
   height: 100px;
 }
 
+.h-100{
+  height: 100%;
+}
+
+
+
 @media (min-width: 576px){
   .img-big {
     height: 200px;
