@@ -1,0 +1,66 @@
+.bg-grad { 
+  background-image: linear-gradient(-71.03deg,#563d7c , #a932a0);
+  width: 100vw;
+  height: 100vh;
+}
+
+.principal-title-styles {
+  font-weight: 400;
+ /* text-transform: uppercase; */
+  font-size: 2.5em;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.bg-input {
+  background-color: rgba(204, 204, 205, 0.582);
+  border: none;
+}
+
+.border-radius-0 {
+  border-radius: 0;
+}
+
+.bg-input:focus {
+  background-color: rgba(204, 204, 205, 0.582)
+}
+
+.bg-input::placeholder {
+  color: #FFF;
+}
+
+.font-weight-300 {
+  font-weight: 300;
+}
+
+.btn-styles {
+  background-color: transparent;
+  font-weight: normal;
+  border: .5px solid #fff;
+
+}
+
+.btn-styles:hover {
+  background-color: rgba(63, 63, 136, 0.322);
+  transition:all 0.2s;
+}
+
+.span-left, .span-right {
+  display: inline-block;
+  width: 45%;
+  border-bottom: 1px solid #fff;
+  position: relative;
+  top:0px;
+}
+
+.bg-100 {
+  height: 100%;
+  width: 100%
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.padding-0 {
+  padding: 0;
+}
